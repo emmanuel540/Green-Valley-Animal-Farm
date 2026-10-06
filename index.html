@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <style>
+        .card-header{
+            background-color: sienna;
+        }
+        h5{
+            color: white;
+            text-align: center;
+        }
+        .card-footer{
+            text-align: center;
+        }
+        h2{
+            color: sienna;
+            text-decoration: underline;
+            text-align: center;
+        }
+        nav{
+            background-color: sienna;
+            color: white;
+            padding: 10px 20px;
+        }
+        a{
+            color: white;
+            word-spacing: 10px;
+            text-decoration: none;
+            font-size: medium;
+        }
+        #brand{
+         font-size: large;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         font-weight:900;
+         font-style:normal;
+        }
+        #d1{
+         color: white;
+         font-weight:900;
+        }
+        section{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- nav section goes here  -->
+
+        <section class="row">
+         <div class="col-md-12">
+             <nav class="navbar navbar-expand-md text-light" style="background-color: sienna;">
+                 <!-- brand  -->
+                  <div class="col-md-6">
+                  <a href="" class="navbar-brand text-light" id="brand"><h1>🐾Green Valley Animal Farm</h1></a>
+                  <!-- switching button  -->
+                   <button class="navbar-toggler" data-bs-target="#d1" data-bs-toggle="collapse"> 
+                     <span class="navbar-toggler-icon"></span>
+                   </button>
+                   </div>
+                   <!-- div containing our links  -->
+                    <div class="collapse navbar-collapse" id="d1">
+                         <!-- left links  -->
+                          <div class="navbar-nav">
+                             <a href="index.html" class="nav-link" style="color: white;">Home</a>
+                             <a href="#Livestock" class="nav-link" style="color: white;">Livestock</a>
+                             <a href="#Dairy Products" class="nav-link" style="color: white;">Dairy Products</a>
+                             <a href="#Poultry" class="nav-link" style="color: white;">Poultry</a>
+                             <a href="#About Us" class="nav-link" style="color: white;">About Us</a>
+                             <a href="#Contact" class="nav-link" style="color: white;">Contact</a>
+                          </div>
+                         <!-- right links  -->
+                    </div>
+             </nav>
+         </div>
+      </section> 
+     <!-- carousel goes here  -->
+      <!-- carosel goes here  -->
+      <section class="row">
+        <div class="col-md-12">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images /slide1.avif" class="d-block w-100" alt="slide1" height="600px">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Quality Livestock Farming</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images /slide2.avif" class="d-block w-100" alt="slide2" height="600px">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images /slide3.avif" class="d-block w-100" alt="slide3" height="600px">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+      </section>
+      <br><br>
+
+      <div class="container">
+             <!-- card row 1 goes here  -->
+      <h2 id="Livestock">Our Dairy Cattle</h2>
+       <section class="row">
+        <!-- child 1  -->
+         <div class="col-md-3 text-center">
+            <div class="card shadow">
+                <!-- card header  -->
+                 <div class="card-header">
+                    <h5>Fresian Cows</h5>
+                 </div>
+                 <!-- card body  -->
+                <div class="card-body">
+                    <img src="images /fresian-cows.jpg" alt="freshian" width="100%" height="100%">
+                </div>
+                 <!-- card footer -->
+                  <div class="card-footer">
+                    <p>High-yield Fresian cows producing rich, creamy milk daily.</p>
+                    <b class="text-primary">Ksh 80,000 each</b><br>
+                    <span class="badge bg-warning text-dark">High Milk Yield</span>
+                  </div>
+            </div>
+         </div>
+         <!-- child 2  -->
+          <div class="col-md-3">
+            <div class="card shadow">
+                <!-- card header  -->
+                 <div class="card-header">
+                    <h5>Jersey Cows</h5>
+                 </div>
+                 <!-- card body  -->
+                  <div class="card-body">
+                    <img src="images /jersey-cows.jpg" alt="jersey" width="100%" height="175px">
+                  </div>
+                  <!-- card footer  -->
+                   <div class="card-footer">
+                    <p>Jersey cows known for high butterfat content in their milk.</p>
+                    <b class="text-primary">Ksh 75,000 each</b><br>
+                    <span class="badge bg-info text-light">Premium Quality</span>
+                   </div>
+            </div>
+          </div>
+          <!-- child 3  -->
+           <div class="col-md-3">
+            <div class="card shadow">
+                <!-- card header  -->
+                 <div class="card-header">
+                    <h5>Ayrshire Cattle</h5>
+                 </div>
+                 <!-- card body  -->
+                  <div class="card-body">
+                    <img src="images /ayrshire-cattle.jpg" alt="ayrshire" width="100%" height="175px">
+                  </div>
+                  <!-- card footer  -->
+                   <div class="card-footer">
+                        <p>Hardy Ayrshire breed, excellent for local climate conditions.</p>
+                        <b class="text-primary">Ksh 65,000 each</b><br>
+                        <span class="badge bg-success text-light">Climate Adapted</span>
+                   </div>
+            </div>
+           </div>
+           <!-- child 4  -->
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card-header  -->
+                     <div class="card-header">
+                        <h5>Calves</h5>
+                     </div>
+                     <!-- card body  -->
+                      <div class="card-body">
+                        <img src="images /calves.jpg" alt="calves" width="100%" height="100%">
+                      </div>
+                      <!-- card footer  -->
+                       <div class="card-footer">
+                        <p>Healthy young calves, vaccinated and ready for new homes.</p>
+                        <b class="text-primary">Ksh 25,000 each</b><br>
+                        <span class="badge bg-danger">15% off</span>
+                       </div>
+                </div>
+            </div>
+       </section>
+       <br><br>
+
+       <!-- card row 2 goes here  -->
+       <h2>Why Choose Our Animal Farm</h2>
+        <section class="row text-center">
+            <!-- child 1  -->
+            <div class="col-md-5 text-center">
+                <div class="card shadow">
+                    <!-- card header  -->
+                        <div class="card-header">
+                            <h5 id="About Us">Why Choose Our Animal Farm</h5>
+                        </div>
+                        <!-- card body  -->
+                         <div class="card-body">
+                            <img src="images /animal husbandry.jpg" alt="animal" width="100%" height="225px">
+                         </div>
+                         <!-- card footer  -->
+                          <div class="card-footer">
+                            <p>We practice ethical animal husbandry with free-range grazing, natural feed, and stress-free environments for all our animals.</p>
+                            <b class="text-primary">Humane Treatment Guaranteed</b><br>
+                            <span class="badge bg-info text-light">Free Range</span>
+                          </div>
+                </div>
+            </div>
+            <!-- child 2  -->
+             <div class="col-md-5 text-center">
+                <div class="card shadow">
+                    <!-- card header  -->
+                     <div class="card-header">
+                        <h5>Quality Assurance</h5>
+                     </div>
+                     <!-- card body  -->
+                      <div class="card-body">
+                        <img src="images /quality assurance.jpg.jpg" alt="quality assurance" width="100%" height="225px">
+                      </div>
+                      <!-- card footer  -->
+                       <div class="card-footer">
+                            <p>All animals are regularly health-checked, vaccinated, and raised without growth hormones or unnecessary antibiotics.</p>
+                            <b class="text-primary">Health Certified Animals</b><br>
+                            <span class="badge bg-warning text-dark">Vaccinated</span>
+                       </div>
+                </div>
+             </div>
+        </section>
+        <!-- card row 3 goes here  -->
+         <h2 id="Poultry">Poultry & Eggs</h2>
+         <section class="row">
+            <!-- child 1  -->
+             <div class="col-md-4">
+                <div class="card shadow">
+                    <!-- card header  -->
+                     <div class="card-header">
+                        <h5>Free Range Chickens</h5>
+                     </div>
+                     <!-- card body  -->
+                      <div class="card-body">
+                        <img src="images /free-range-chickens.jpg.jpg" alt="free-range-chickens" width="100%" height="210px">
+                      </div>
+                      <!-- card footer  -->
+                       <div class="card-footer">
+                            <p>Healthy chickens raised in open spaces, fed natural grains.</p>
+                            <b class="text-primary">Ksh 800 each</b><br>
+                            <span class="badge bg-danger">Most Popular</span>
+                       </div>
+                </div>
+             </div>
+             <!-- child 2  -->
+             <div class="col-md-4">
+                <div class="card shadow">
+                    <!-- card header  -->
+                     <div class="card-header">
+                        <h5>Free Eggs</h5>
+                     </div>
+                     <!-- card body  -->
+                      <div class="card-body">
+                        <img src="images /eggs.jpg" alt="free-eggs" width="100%" height="100%">
+                      </div>
+                      <!-- card footer  -->
+                       <div class="card-footer">
+                            <p>Daily collected free-range eggs, rich in nutrients and flavor.</p>
+                            <b class="text-primary">Ksh 20 per egg</b><br>
+                            <span class="badge bg-success">Fresh Daily</span>
+                       </div>
+                </div>
+             </div>
+              <!-- child 3  -->
+              <div class="col-md-4">
+                <div class="card shadow">
+                    <!-- card header  -->
+                     <div class="card-header">
+                        <h5>Turkey Birds</h5>
+                     </div>
+                     <!-- card body  -->
+                      <div class="card-body">
+                        <img src="images /turkey-birds.jpg" alt="turkey-birds" width="100%" height="100%">
+                      </div>
+                      <!-- card footer  -->
+                       <p>Premium turkey birds, perfect for special occasions and holidays.</p>
+                       <b class="text-primary">Ksh 4,500 each</b><br>
+                       <span class="badge bg-warning text-dark">Seasonal Favorite</span>
+                </div>
+             </div>
+         </section>
+         <br><br>
+         <!-- card row 4 goes here  -->
+          <h2 id="Dairy Products">Dairy Products</h2>
+          <section class="row">
+           <!-- child 1  -->
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card header  -->
+                     <div class="card-header">
+                        <h5 id="Products">Fresh Milk</h5>
+                     </div>
+                     <!-- card body  -->
+                      <div class="card-body">
+                        <img src="images /fresh-milk.avif.avif" alt="fresh-milk" width="100%" height="100%">
+                      </div>
+                      <!-- card footer  -->
+                       <div class="card-footer">
+                            <p>Pasteurized fresh milk, delivered daily from our dairy.</p>
+                            <b class="text-primary">Ksh 80 per liter</b><br>
+                            <span class="badge bg-warning text-dark">Daily Delivery</span>
+                       </div>
+                </div>
+            </div>
+            <!-- child 2  -->
+             <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card header  -->
+                     <div class="card-header">
+                        <h5>Farm Cheese</h5>
+                     </div>
+                     <!-- card body  -->
+                      <div class="card-body">
+                        <img src="images /cheese.jpg" alt="farm-cheese" width="100%" height="100%">
+                      </div>
+                      <!-- card footer  -->
+                       <div class="card-footer">
+                            <p>Artisanal cheese made from our farm's premium milk.</p>
+                            <b class="text-primary">Ksh 450 per kg</b><br>
+                            <span class="badge bg-info text-light">Aged 6 Months</span>
+                       </div>
+                </div>
+             </div>
+             <!-- child 3  -->
+             <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card header  -->
+                     <div class="card-header">
+                        <h5>Natural Yogurt</h5>
+                     </div>
+                     <!-- card body  -->
+                      <div class="card-body">
+                        <img src="images /natural-yoghurt.avif.avif" alt="natural-yoghurt" width="100%" height="100%">
+                      </div>
+                      <!-- card footer  -->
+                       <div class="card-footer">
+                            <p>Probiotic-rich yogurt with live cultures, no additives.</p>
+                            <b class="text-primary">Ksh 120 per 500ml</b><br>
+                            <span class="bg-success text-light">Probiotic</span>
+                       </div>
+                </div>
+             </div>
+              <!-- child 4  -->
+              <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card header  -->
+                     <div class="card-header">
+                        <h5>Farm Butter</h5>
+                     </div>
+                     <!-- card body  -->
+                      <div class="card-body">
+                        <img src="images /butter.jpg" alt="farm-butter" width="100%" height="100%">
+                      </div>
+                      <!-- card footer  -->
+                       <div class="card-footer">
+                            <p>Creamy butter churned traditionally from fresh cream.</p>
+                            <b class="text-primary">Ksh 300 per 250g</b><br>
+                            <span class="bg-warning text-light">Handmade</span>
+                       </div>
+                </div>
+             </div>
+          </section>
+          <!-- card row 5 goes here  -->
+           <h2>Goats & Sheep</h2>
+           <section class="row text-center">
+            <!-- child 1  -->
+             <div class="col-md-4">
+                <div class="card shadow">
+                    <!-- card header  -->
+                     <div class="card-header">
+                        <h5>Dairy Goat</h5>
+                     </div>
+                    <!-- card body  -->
+                     <div class="card-body">
+                        <img src="images /dairy-goats.jpg" alt="dairy-goats" width="100%" height="100%">
+                     </div>
+                     <!-- card footer  -->
+                      <div class="card-footer">
+                        <p>Saanen and Toggenburg goats for milk production.</p>
+                            <b class="text-primary text-center">Ksh 15,000 each</b><br>
+                            <span class="badge bg-warning text-dark">High Yield</span>
+                            </div>
+                      </div>
+                </div>
+             <!-- child 2  -->
+             <div class="col-md-4">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        <h5>Meat Goats</h5>
+                    </div>
+                    <!-- card body  -->
+                      <div class="card-body">
+                        <img src="images /meat-goat.jpg" alt="meat-goat" width="100%" height="100%">
+                     </div>
+                     <!-- card footer  -->
+                      <div class="card-footer">
+                        <p>Boer goats for meat, excellent for commercial farming</p>
+                            <b class="text-primary text-center">Ksh 12,000 each</b><br>
+                            <span class="badge bg-info text-light">Dual Purpose</span>
+                      </div>
+                     </div>
+                </div>
+             
+              <!-- child 3  -->
+              <div class="col-md-4">
+                <div class="card shadow">
+                    <!-- card header  -->
+                     <div class="card-header">
+                        <h5>Sheep</h5>
+                    </div>
+                     <!-- card body  -->
+                      <div class="card-body">
+                        <img src="images /sheep.jpg" alt="sheep" width="100%" height="100%">
+                     </div>
+                      <!-- card footer  -->
+                       <div class="card-footer">
+                            <p>Dorper and Red Maasai sheep for wool and meat.</p>
+                            <b class="text-primary">Ksh 10,000 each</b><br>
+                            <span class="badge bg-success text-light">Dual Purpose</span>
+                       </div>
+                </div>
+             </div>
+           </section>
+           <br><br>
+           <!-- card row 6 goes here  -->
+            <h2>Farm Manager's Message</h2>
+            <section class="row text-center">
+                <div class="col-md-8">
+                    <div class="card shadow">
+                    <!-- card header  -->
+                     <div class="card-header">
+                        <h5>A Message From Our Farm Manager</h5>
+                     </div>
+                     <!-- card body  -->
+                      <div class="card-body">
+                            <img src="images /farm-manager-message.avif" alt="Message" width="100%" height="100%">
+                      </div>
+                      <!-- card footer  -->
+                       <div class="card-footer">
+                            <p><b><i>“At Green Valley Animal Farm, we believe in raising animals with respect and care. Happy animals mean better products for you. We’re committed to sustainable farming practices that benefit both the animals and our customers.”<i></b></i></p>
+                            <b class="text-primary">— Samuel Kariuki, Farm Manager</b><br>
+                            <span class="badge bg-info text-light">20+ Years Experience</span>
+                       </div>
+                </div>
+                </div>
+            </section>
+            <br><br>
+            <!-- card row 7 goes here  -->
+             <h2>Our Farm Features</h2>
+                <section class="row text-center">
+                    <!-- child 1  -->
+                     <div class="col-md-4">
+                        <div class="card shadow">
+                            <!-- card header  -->
+                             <div class="card-header">
+                                <h5>Veterinary Care</h5>
+                             </div>
+                             <!-- card body  -->
+                              <div class="card-body">
+                                    <img src="images /veterinary-care.jpg" alt="veterinary-care" width="100%" height="210px">
+                              </div>
+                              <!-- card footer  -->
+                               <div class="card-footer">
+                                    <p>Regular veterinary check-ups and emergency care for all animals.</p>
+                                    <b class="text-primary">Health Guaranteed</b><br>
+                                    <span class="badge bg-success text-light">24/7 Vet Available</span>
+                               </div>
+                        </div>
+                     </div>
+                     <!-- child 2  -->
+                     <div class="col-md-4">
+                        <div class="card shadow">
+                            <!-- card header  -->
+                             <div class="card-header">
+                                <h5>Natural Feeding</h5>
+                             </div>
+                             <!-- card body  -->
+                              <div class="card-body">
+                                    <img src="images /natural-feeding.jpg" alt="natural-feeding" width="100%" height="210px">
+                              </div>
+                              <!-- card footer  -->
+                               <div class="card-footer">
+                                    <p>Animals fed with natural pasture, hay, and organic supplements.</p>
+                                    <b class="text-primary">Chemical-Free Feed</b><br>
+                                    <span class="badge bg-warning text-dark">Organic</span>
+                               </div>
+                        </div>
+                     </div>
+                      <!-- child 3  -->
+                      <div class="col-md-4">
+                        <div class="card shadow">
+                            <!-- card header  -->
+                             <div class="card-header">
+                                <h5>Clean Facilities</h5>
+                             </div>
+                             <!-- card body  -->
+                              <div class="card-body">
+                                    <img src="images /clean-facilities.jpg" alt="clean-facilities" width="100%" height="210px">
+                              </div>
+                              <!-- card footer  -->
+                               <div class="card-footer">
+                                    <p>Modern, hygienic housing and milking facilities for animal comfort.</p>
+                                    <b class="text-primary">Premium Facilities</b><br>
+                                    <span class="badge bg-info text-light">Sanitized Daily</span>
+                               </div>
+                        </div>
+                     </div>
+                </section>
+                <br><br>
+             <!-- card row 8 goes here  -->
+              <h2>Customer Testimonials</h2>
+              <section class="row text-center">
+                <!-- child 1  -->
+                 <div class="col-md-5 text-center">
+                    <div class="card shadow">
+                        <!-- card header  -->
+                         <div class="card-header">
+                            <h5>Mary Wanjiku</h5>
+                         </div>
+                         <!-- card body  -->
+                          <div class="card-body">
+                                <img src="images /mary.jpg" alt="mary-wanjiku" width="100%" height="450px">
+                          </div>
+                          <!-- card footer  -->
+                           <div class="card-footer">
+                                <p>“The milk from Green Valley Farm is the freshest I’ve ever tasted. My family loves their dairy products!”</p>
+                                <b class="text-primary">Regular Customer</b><br>
+                                <span class="badge bg-warning text-dark">★★★★★</span>
+                           </div>
+                    </div>
+                 </div>
+                 <!-- child 2  -->
+                 <div class="col-md-5 text-center">
+                    <div class="card shadow">
+                        <!-- card header  -->
+                         <div class="card-header">
+                            <h5>John Kamau</h5>
+                         </div>
+                         <!-- card body  -->
+                          <div class="card-body">
+                                <img src="images /john.jpg" alt="john-kamau" width="100%" height="450px">
+                          </div>
+                          <!-- card footer  -->
+                           <div class="card-footer">
+                            <p>“I bought two dairy cows from them last year. They were healthy and have been producing excellent milk.”</p>
+                            <b class="text-primary">Dairy Farmer</b><br>
+                            <span class="badge bg-warning text-dark">★★★★☆</span>
+                           </div>
+                    </div>
+                 </div>
+              </section>
+              <br><br>
+              <!-- card row 9 goes here  -->
+               <h2 id="Contact">Contact & Location</h2>
+               <section class="row text-center">
+                <!-- child 1  -->
+                <div class="col-md-5">
+                    <div class="card shadow">
+                        <!-- card header  -->
+                         <div class="card-header">
+                            <h5>Visit Our Farm</h5>
+                         </div>
+                         <!-- card body  -->
+                          <div class="card-header">
+                                <img src="images /our-farm.webp" alt="visit" width="100%">
+                          </div>
+                          <!-- card footer  -->
+                           <div class="card-footer">
+                                <p> Limuru Road, Kiambu County</p>
+                                <p> 0712 987 654</p>
+                                <p> Mon-Sat, 7:00 AM - 6:00 PM</p>
+                                <b class="text-primary">Farm Tours Available</b><br>
+                                <span class="badge bg-info text-light">Book in Advance</span>
+                           </div>
+                    </div>
+                 </div>
+                 <!-- child 2  -->
+                 <div class="col-md-5">
+                    <div class="card shadow">
+                        <!-- card header  -->
+                         <div class="card-header">
+                            <h5>Get In Touch</h5>
+                         </div>
+                         <!-- card body  -->
+                          <div class="card-header">
+                            <img src="images /our-farm.webp" alt="get in touch" width="100%">
+                          </div>
+                          <!-- card footer  -->
+                           <div class="card-footer">
+                                <p>info@greenvalleyfarm.co.ke</p>
+                                <p>Delivery Available in Nairobi</p>
+                                <p> Bulk Orders Welcome</p>
+                                <b class="text-primary">We Respond Within 24 Hours</b><br>
+                                <span class="badge bg-success text-light">Fast Response</span>
+                           </div>
+                    </div>
+                 </div>
+            
+               </section>
+               <br><br>
+               <!-- card row 10 goes here  -->
+                <h2>Stay Updated</h2>
+                <section class="row p-4 text-center">
+                    <div class="col-md-7">
+                        <div class="card shadow">
+                            <!-- card header  -->
+                             <div class="card-header">
+                                <h5>Subscribe to Our Newsletter</h5>
+                             </div>
+                             <!-- card body  -->
+                              <div class="card-header">
+                                <img src="images /our-newspaper.avif" alt="our-newspaper" width="100%">
+                              </div>
+                              <!-- card footer  -->
+                               <div class="card-footer">
+                                <p>Get updates on new livestock, dairy products, farming tips, and special offers.</p>
+                                <input type="email" value="Enter your email address"><button style="background-color: sienna; color: white;">Subscribe</button><br><br>
+                                <span class="badge bg-primary text-light">Farm updates straight to your inbox!</span>
+                               </div>
+                        </div>
+                     </div>
+                </section>
+                </div>
+                <br><br>
+
+                </div>
+                </div>
+                <!-- footer section goes here  -->
+                <footer class="row bg-dark text-light py-4">
+                    <div class="col-md-3">
+                        <h5>Green Valley Animal Farm</h5>
+                        <p>Providing quality livestock and dairy products since 2005. Healthy animals, happy customers.</p>
+                        <b>Certified Animal Farm</b>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Quick Links</h6>
+                        <small>Home<br>Livestock<br>Dairy Products<br>Poultry<br>Contact</small>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Our Products</h6>
+                        <small>Dairy Cattle<br>Poultry & Eggs<br>Dairy Products<br>Goats & Sheep</small>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Join our newsletter</h6>
+                        <p>Limuru Road, Kiambu County</p>
+                        <p>Open: Mon-Sat, 7AM-6PM</p>
+                        <p>Phone: 07128 987 654</p>
+                        <img src="images /facebook.png" alt="fb" width="7%" class="p-1">
+                        <img src="images /twitter.png" alt="twitter" width="7%" class="p-1">
+                        <img src="images /instagram.avif" alt="instagram" width="7%" class="p-1">
+                        <img src="images /whatsapp.png" alt="whatsapp" width="7%" class="p-1">
+                    </div>
+
+                    <br><hr>
+                    <div class="row col-md-6 mt-3">
+                        <small>&copy; 2026 Green Valley Animal Farm. All rights reserved.</small>
+                    </div>
+                    <div class="row col-md-6 text-end mt-3">
+                        <small>Raising animals with care and respect</small>
+                    </div>
+                  </footer>
+</div>
+</body>
+</html>
